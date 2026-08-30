@@ -22,7 +22,7 @@ class Solution {
             temp = temp.next;
         } 
         
-        // Skip the nth node from the end
+      
         if (temp.next != null) {
             temp.next = temp.next.next;
         }
